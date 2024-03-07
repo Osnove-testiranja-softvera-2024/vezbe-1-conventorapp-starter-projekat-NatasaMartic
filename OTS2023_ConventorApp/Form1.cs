@@ -16,5 +16,40 @@ namespace OTS2023_ConventorApp
         {
             InitializeComponent();
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            while (true) {
+
+                lblLabela1.Text = "pounds";
+                lblLabela2.Text = "kg";
+            }
+        }
+
+        private void LEngth_CheckedChanged(object sender, EventArgs e)
+        {
+            while (true)
+            {
+
+                lblLabela1.Text = "feet";
+                lblLabela2.Text = "m";
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //1 pound ima tačno  0.45359237 kg.
+         
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
